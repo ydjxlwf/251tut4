@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class CalcTest {
     Calc c = new Calc();
-
+    Calc d = new Calc();
     @Test
     void testAddition() {
         assertEquals(4, c.add(2, 2));
@@ -13,6 +13,6 @@ public class CalcTest {
 
     @Test
     void testSubtraction() {
-        assertEquals(2, c.subtract(4, 2));
+        assertEquals(2, d.subtract(4, 2));
     }
 }
