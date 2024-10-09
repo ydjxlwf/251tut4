@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class CalcTest {
   Calc c = new Calc();
+    Calc d = new Calc();
 
     @Test
     void testAddition() {
@@ -12,7 +13,7 @@ public class CalcTest {
     }
 
     public void testSubtraction() {
-        assertEquals(2, c.subtract(4, 2)); // 故意写错，期望的结果应该是 2，但实际结果应该是 2
+        assertEquals(2, d.subtract(4, 2)); // 故意写错，期望的结果应该是 2，但实际结果应该是 2
     }
 
 }
