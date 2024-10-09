@@ -12,7 +12,7 @@ public class CalcTest {
     }
 
     public void testSubtraction() {
-        assertEquals(2, c.subtract(4, 1)); // 故意写错，期望的结果应该是 2，但实际结果应该是 3
+        assertEquals(2, c.subtract(4, 2)); // 故意写错，期望的结果应该是 2，但实际结果应该是 2
     }
 
 }
